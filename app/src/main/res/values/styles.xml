@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorLabel</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+
+    <style name="component_default_dimensions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="input" parent="component_default_dimensions">
+
+    </style>
+
+    <style name="input_home" parent="input">
+        <item name="android:hint">@string/hint_home</item>
+    </style>
+
+    <style name="input_away" parent="input">
+        <item name="android:hint">@string/hint_away</item>
+    </style>
+
+    <style name="button" parent="component_default_dimensions">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="label_placar">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+</resources>

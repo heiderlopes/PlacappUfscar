@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Clubes"
+              android:textSize="36sp"
+              android:gravity="center"
+              android:textStyle="bold|italic"/>
+
+    <TextView
+            android:text="@string/label_home"
+            style="@style/label"/>
+
+    <EditText style="@style/input_home" android:id="@+id/inputHome"/>
+
+    <TextView
+            style="@style/label"
+            android:text="@string/label_away"/>
+
+    <EditText style="@style/input_away" android:id="@+id/inputAway"/>
+
+    <Button style="@style/button"
+            android:text="@string/label_start_game" android:id="@+id/btStart"/>
+
+</LinearLayout>
